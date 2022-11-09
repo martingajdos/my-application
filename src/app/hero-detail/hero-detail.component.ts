@@ -9,12 +9,11 @@ import { Hero } from "../hero";
 export class HeroDetailComponent implements OnInit {
 
   // Some "property" of the hero-detail component
-  // use like <hero-detail [hero]=? />
+  // use like <hero-detail [hero]=? /> lol
   @Input() hero?: Hero;
   
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
